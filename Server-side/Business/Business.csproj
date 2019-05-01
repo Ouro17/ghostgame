@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ghost\Ghost.csproj" />
+    <ProjectReference Include="..\Minimax\Minimax.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Dictionaries.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Dictionaries.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Dictionaries.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Dictionaries.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

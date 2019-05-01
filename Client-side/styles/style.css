@@ -1,0 +1,25 @@
+.player {
+    color: green;
+}
+
+.machine {
+    color: darkorange;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+}
+
+.note {
+    color: #333;
+
+}
